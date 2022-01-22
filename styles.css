@@ -1,0 +1,46 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+body {
+    background-color: #393E46;
+    background: #385dd6;
+    background: -webkit-linear-gradient(to right, #fc9e9e, #4e76fa);
+    background: linear-gradient(to right, #cf8d8d, #708ff5);
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #31044b;
+    font-size: 7rem;
+    color: #7e126c;
+}
+
+p {
+    font-size: 2rem;
+    color: #0b2058;
+    font-family: 'Indie Flower', cursive;
+}
+
+img {
+    width: 80%;
+}
+
+footer {
+    margin-top: 5%;
+    color: #271919;
+    text-align: center;
+}
+
+.social-media {
+    margin: 3% 4%;
+    size: 5x;
+}
