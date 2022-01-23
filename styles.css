@@ -44,3 +44,12 @@ footer {
     margin: 3% 4%;
     size: 5x;
 }
+
+.refresh {
+    padding: 5%;
+}
+
+refresh2 {
+    background-color: red;
+    color: red;
+}

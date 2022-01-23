@@ -12,9 +12,18 @@ image2.setAttribute("src", imageSourse2);
 
 
 if (ramdomNum1 > ramdomNum2) {
-    document.querySelector("h1").innerHTML = "🏆Player 1 is winner";
+    document.querySelector("h1").innerHTML = "Player 1 is winner 🏆 ";
 } else if (ramdomNum2 > ramdomNum1) {
     document.querySelector("h1").innerHTML = "Player 2 is winner 🏆";
 } else {
     document.querySelector("h1").innerHTML = "Both resutls are same"
 }
+
+
+const reloadtButton = document.querySelector("#reload");
+// Reload everything:
+function reload() {
+    reload = location.reload();
+}
+// Event listeners for reload
+reloadButton.addEventListener("click", reload, false);
